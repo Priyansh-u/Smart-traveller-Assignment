@@ -34,7 +34,6 @@ function Name() {  let next;
   return (
     <div className="container">
       <p className="register">Register</p>
-      <form>
         <input
           onChange={handleChange}
           name="contactname"
@@ -45,7 +44,6 @@ function Name() {  let next;
           SIGN UP
         </Link>
          </button>
-      </form>
     </div>
   );
 }
